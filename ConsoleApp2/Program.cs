@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Ejemplo de docs
 class Program
 {
     static void Main(string[] args)
@@ -8,9 +9,8 @@ class Program
 
         try
         {
-            // This line tries to read input and convert it to an integer
             string userInput = Console.ReadLine();
-            int number = int.Parse(userInput); // This can throw a FormatException if the input is not a valid number
+            int number = int.Parse(userInput); // This can throw a FormatException if the input is not a valid number..
 
             Console.WriteLine($"You entered the number: {number}");
         }
